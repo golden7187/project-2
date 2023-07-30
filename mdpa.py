@@ -11,13 +11,13 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 
+
 # loading the saved models
+diabetes_model = pickle.load(open('diabetes_model1.sav', 'rb'))
 
-diabetes_model = pickle.load(open('C:/Users/golden deo/OneDrive/Desktop/Multiple Disease Prediction/saved model/diabetes_model1.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model(2).sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/golden deo/OneDrive/Desktop/Multiple Disease Prediction/saved model/heart_disease_model (2).sav','rb'))
-
-parkinsons_model = pickle.load(open('C:/Users/golden deo/OneDrive/Desktop/Multiple Disease Prediction/saved model/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 
 
@@ -86,8 +86,6 @@ if (selected == 'Diabetes Prediction'):
 
 
 
-
-# Heart Disease Prediction Page
 #Heart Disease Prediction Page
 if(selected == 'Heart Disease Prediction'):
     
