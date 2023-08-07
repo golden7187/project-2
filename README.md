@@ -20,7 +20,7 @@ Predict Parkinson's disease risk: Users can input specific health metrics relate
 
 You can try out the live version of the Disease Prediction App hosted on Streamlit Cloud:
 
-Link to App -https://project-2-multi--disease-prediction-hxulfrgfvp73sbwovm4lwg.streamlit.app/
+Link to App -https://project-2-multi--disease-prediction-fqfwbu7s4664aeqpnfmzty.streamlit.app/
 
 
 4. Usage
